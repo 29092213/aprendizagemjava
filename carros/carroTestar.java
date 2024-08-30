@@ -15,6 +15,26 @@ public class carroTestar {
 
         System.out.println(c1.vel);
 
+        c1.freiar(100);
+
+        System.out.println(c1.vel);
+        c1.buzinar();
+
+        System.out.println(" ------------------------ ");
+        // Segundo Carro.
+
+
+        carros c2 = new carros();
+
+        c2.ano = 2000;
+        c2.nome = "Palio";
+        c2.vel = 40;
+
+        c2.acelerar(20);
+
+        System.out.println(c2.nome);
+        System.out.println( c2.vel);
+
     }
     
 }
