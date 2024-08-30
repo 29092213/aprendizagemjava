@@ -10,6 +10,8 @@ public class carroTestar {
         c1.marca = "Fiat";
         c1.ano = 2015;
         c1.vel = 100;
+        c1.setDono("Luiz");
+        System.out.println("O dono do Carro se chama: " + c1.getDono());
 
         c1.acelerar(10);
 

@@ -8,6 +8,16 @@ public class carros {
     int ano;
     int vel;
 
+    private String dono;
+
+    public void setDono(String dono){
+        this.dono = dono;
+    }
+
+    public String getDono (){
+        return this.dono;
+    }
+
     //Métodos
 
     void acelerar(int aceleracao){
